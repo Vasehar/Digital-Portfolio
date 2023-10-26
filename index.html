@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your Portfolio</title>
+    <style>/* Reset default margin and padding */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Style the header navigation */
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style: none;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        /* Style the sections with background images */
+        .section {
+            text-align: center;
+            padding: 50px 0;
+            color: white;
+        }
+        
+        .background-image {
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        
+        #home {
+            background-image: url('home-bg.jpg');
+        }
+        
+        #about {
+            background-image: url('about-bg.jpg');
+        }
+        
+        #portfolio {
+            background-image: url('portfolio-bg.jpg');
+        }
+        
+        #contact {
+            background-image: url('contact-bg.jpg');
+        }
+        
+        .portfolio-item {
+            margin: 20px;
+        }
+        
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section background-image">
+        <h1>Vasehar</h1>
+        <p>Web Developer & Designer</p>
+    </section>
+
+    <section id="about" class="section background-image">
+        <h2>About Me</h2>
+        <p> Vashehar, a promising and creative web designer, is making waves in the digital world while pursuing his studies at Kamaraj College in Tuticorin.
+             With an unquenchable passion for web design and an insatiable curiosity, Vashehar is a name to watch out for in the field of web development and design.
+            Hailing from the vibrant coastal town of Tuticorin, Vashehar's journey into the world of web design began as an extension of his artistic flair.
+             This natural aptitude, combined with his fascination for technology, led him to embark on the path of web design..
+        </p>
+    </section>
+
+    <section id="portfolio" class="section background-image">
+        <h2>My Website</h2>
+        <p>I have also created another website for my assignment this is the screenshot of my website</p>
+        <img src="screenshot.jpg" height="200 width=200">
+    </section>
+
+    <section id="contact" class="section background-image">
+        <h2>Contact Me</h2>
+        <p>Mail id:rasi.vasehar@gmail.com</p>
+        <p>PH:7880005552</p>
+        <p>Address:Bryant Nagar,Tuticorin</p>
+    </section>
+</body>
+</html>
